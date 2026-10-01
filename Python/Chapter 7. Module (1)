@@ -98,12 +98,3 @@ target = request.urlopen("https://google.com") # url을 열어줌
 output = target.read() # 내용을 가져옴
 
 print(output) # 바이너리 코드(b)로 출력
-
-
-
-
-
-
-
-
-
