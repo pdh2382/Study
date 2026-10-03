@@ -4,7 +4,7 @@ My study records on NLP, LLM, and computational linguistics.
 <!-- Header Wave Banner -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=header&text=Aspiring%20NLP%20Engineer&fontSize=40&animation=fadeIn&fontColor=ffffff" width="100%"/>
 
-# 👋 안녕하세요! NLP 엔지니어를 꿈꾸는 [이름]입니다.
+# 👋 안녕하세요! NLP 엔지니어를 꿈꾸는 박대현입니다.
 
 > **"언어 모델의 원리를 깊이 있게 이해하고, 논문 구현과 지속적인 기록을 통해 성장하는 NLP 엔지니어입니다."**
 
@@ -14,7 +14,7 @@ My study records on NLP, LLM, and computational linguistics.
 
 - 🔬 **Target Goal:** Natural Language Processing (NLP) / Large Language Models (LLM) / Financial NLP
 - 📚 **Current Focus:** Python, PyTorch, Hugging Face 기반 ML/DL 독학 및 최신/핵심 NLP 논문 리뷰
-- 📝 **Study Logs:** 배운 내용과 트러블슈팅 과정은 [기술 블로그](블로그_주소) 및 [Notion]에 꾸준히 정제하여 기록하고 있습니다.
+- 📝 **Study Logs:** 배운 내용과 트러블슈팅 과정은 [기술 블로그](블로그_주소) 및 [[Notion]](https://app.notion.com/p/AI-STUDY-6888a679bfa18315a30101f04c3039f5?source=copy_link)에 꾸준히 정제하여 기록하고 있습니다.
 
 <br>
 
