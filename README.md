@@ -68,8 +68,8 @@ My study records on NLP, LLM, and computational linguistics.
 ## 📊 Activity & Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=본인_깃허브_아이디&show_icons=true&theme=tokyonight&hide_border=true" width="48%">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=본인_깃허브_아이디&theme=tokyonight&hide_border=true" width="48%">
+  <img src="https://github-readme-stats.vercel.app/api?username=pdh2382&show_icons=true&theme=tokyonight&hide_border=true" width="48%">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=pdh2382&theme=tokyonight&hide_border=true" width="48%">
 </p>
 
 <br>
@@ -78,5 +78,5 @@ My study records on NLP, LLM, and computational linguistics.
 
 <p>
   <a href="블로그_주소"><img src="https://img.shields.io/badge/Tistory_Blog-000000?style=for-the-badge&logo=tistory&logoColor=white"></a>
-  <a href="노션_주소"><img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white"></a>
+  <a href="https://app.notion.com/p/AI-STUDY-6888a679bfa18315a30101f04c3039f5?source=copy_link"><img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white"></a>
 </p>
