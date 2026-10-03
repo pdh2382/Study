@@ -1,9 +1,9 @@
 <!-- Header Banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=3776AB&height=180&section=header&text=Honkong%20Python%20Study&fontSize=36&animation=fadeIn&fontColor=ffffff" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=3776AB&height=180&section=header&text=Python%20Study&fontSize=36&animation=fadeIn&fontColor=ffffff" width="100%"/>
 
 # 🐍 [혼자 공부하는 파이썬] 기초 학습 및 실습 기록
 
-> **NLP 엔지니어/데이터 분석가를 위한 파이썬 문법 기초 및 핵심 개념 정립 레포지토리입니다.**
+> **NLP 엔지니어/데이터 분석가를 위한 파이썬 문법 기초 및 핵심 개념 공부 기록입니다.**
 
 ---
 
@@ -17,12 +17,12 @@
 ## 📂 폴더 구조 (Repository Structure)
 
 ```text
-honkong-python/
-├── ch01_python_env/        # 01장. 파이썬 시작하기
-├── ch02_data_types/        # 02장. 자료형 (숫자, 문자열, 리스트, 딕셔너리)
-├── ch03_conditionals/      # 03장. 조건문
-├── ch04_loops/             # 04장. 반복문 (for, while)
-├── ch05_functions/         # 05장. 함수 (가변 매개변수, 재귀함수, 람다)
-├── ch06_exceptions/        # 06장. 예외 처리
-├── ch07_modules/           # 07장. 모듈 & 표준 라이브러리
-└── ch08_classes/           # 08장. 클래스 & 객체지향 프로그래밍
+python/
+├── Chapter 1 - 파이썬 시작하기/      
+├── Chapter 2 - 자료형/               
+├── Chapter 3 - 조건문/     
+├── Chapter 4 - 반복문/                 
+├── Chapter 5 - 함수/                  
+├── Chapter 6 - 예외 처리/            
+├── Chapter 7 - 모듈/          
+└── Chapter 8 - 클래스/           
