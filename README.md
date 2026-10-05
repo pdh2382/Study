@@ -60,7 +60,7 @@ My study records on NLP, LLM, and computational linguistics.
 
 | Project | Description | Stack | Link |
 | :--- | :--- | :--- | :---: |
-| **NLP Study Repo** | 파이썬, 딥러닝 기초 및 NLP 독학 코드 모음 | Python, PyTorch | [Repo](링크) |
+| **NLP Study Repo** | 파이썬, 딥러닝 기초 및 NLP 독학 코드 모음 | Python, PyTorch | [Repo]((https://github.com/pdh2382/Study#-tech-stack)) |
 | **[프로젝트명]** | [프로젝트에 대한 한 줄 핵심 설명] | PyTorch, Hugging Face | [Repo](링크) |
 
 <br>
