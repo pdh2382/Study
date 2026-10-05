@@ -6,3 +6,9 @@ factorial(n) = n*factorial(n-1)
 factorial(0) = 1
 # 위와 같이 표현도 가능함.
 
+def factorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n*factorial(n-1)
+
