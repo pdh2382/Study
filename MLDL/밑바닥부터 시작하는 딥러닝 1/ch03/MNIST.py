@@ -20,3 +20,9 @@ def predict(network, x):
 
     a1 = np.dot(x, W1) + b1
     z1 = sigmoid(a1)
+    a2 = np.dot(x, W2) + b2
+    z2 = sigmoid(a2)
+    a3 = np.dot(x, W3) + b3
+    z3 = sigmoid(a3)
+
+    return y
