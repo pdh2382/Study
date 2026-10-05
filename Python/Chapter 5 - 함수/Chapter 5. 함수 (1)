@@ -54,3 +54,16 @@ def mul(*values):
 print(mul(5,7,9,10))
 
 # 아무것도 없이 return하면 None 출력.
+
+#함수 내부에서 외부의 변수를 참조하지 못함.
+# global을 써줘야 가능.
+count = 0
+def fibonacci(n):
+  counter += 1
+  if n == 1 :
+    return 1
+  if n == 2 :
+    return 1
+  else : return fibonacci(n-1) + fibonacci(n-2)
+
+print(fibonacci(10))
