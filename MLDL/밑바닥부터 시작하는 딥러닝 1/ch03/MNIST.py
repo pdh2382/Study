@@ -1,3 +1,5 @@
+# 기존 책의 코드는 로컬의 MNIST 데이터를 불러오는 방식이지만,
+# 코랩 등에서 바로 구현 가능하도록 텐서플로우에서 mnist 파일을 불러오는 방식으로 변경함.
 import urllib.request
 import os
 import os.path
