@@ -28,3 +28,29 @@ print(a)
 primitive_change(a) # 함수 스택에 따로 b라는 인덱스 + 20이라는 값이 생김.
 print(a) # 똑같이 10이 나옴.(전역 스택에서 불러오기에.)
 
+# 리스트의 경우에는 힙에 본 데이터를, 스택에 주소를 저장함.
+# 그래서 append같은 함수를 쓰면 힙의 데이터가 변경돼서 함수 스택이든 전역 스택이든 다 영향미침.
+
+# 도전문제 - 하노이 탑
+count = 0
+def hanoii(n, A, B, C):
+  global count
+  if n == 1:
+    print("{} -> {}".format(A, B))
+    count +=1
+  if n >= 2:
+    for i in range(n):
+      hanoii(n-1, A, C, B)
+      print("{} -> {}".format(A, B))
+      count += 1
+      hanoii(n-1, C, B, A)
+  return count
+
+n = int(input("원판의 개수를 입력해주세요:"))
+hanoii(n, 'A탑', 'B탑', 'C탑')
+
+def hanoii_count(n):
+  print("이동 횟수는 {}회입니다.".format(2**n -1))
+
+n = int(input("원판의 개수를 입력해주세요:"))
+hanoii_count(n)
