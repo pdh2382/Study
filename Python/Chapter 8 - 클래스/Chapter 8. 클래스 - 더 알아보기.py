@@ -117,3 +117,21 @@ students.append(Student("아지", 90))
 
 print(students.get_first_by_score().name)
 # 나머지도 print해보면 잘 나옴.
+
+# 도전문제 - Stack 구현
+class Stack:
+  def __init__(self):
+    self.list = []
+  def push(self, item):
+    self.list.append(item)
+  def pop(self):
+    return self.list.pop()
+  
+stack = Stack()
+stack.push(10)
+stack.push(20)
+stack.push(30)
+
+print(stack.pop())
+print(stack.pop())
+print(stack.pop())
