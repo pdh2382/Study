@@ -87,3 +87,33 @@ class Child(Parent):
 child = Child()
 child.test() # 이 시점에서 Parent와 Child의 __init__은 모두 호출됨.
 print(child.value)
+
+# 도전문제 - StudentList 클래스 만들기
+class Student:
+  def __init__(self, name, score):
+    self.name = name
+    self.score = score
+
+class StudentList:
+  def __init__(self):
+    self.students=[]
+  def append(self, student):
+    self.students.append(student) # 제너레이터 형태로 추가.
+  def get_average(self):
+    return sum([ # 리스트 내포로 점수만 가진 리스트 만들기
+        students.score 
+        for students in self.students
+        ]) / len(self.students)
+  def get_first_by_score(self):
+    return max(self.students, key = lambda x : x.score ) # 키 이용, 점수기준 최댓값 구하기
+  def get_last_by_score(self):
+    return min(self.students, key = lambda x : x.score )
+
+students = StudentList()
+students.append(Student("구름", 100))
+students.append(Student("별", 49))
+students.append(Student("초코", 81))
+students.append(Student("아지", 90))
+
+print(students.get_first_by_score().name)
+# 나머지도 print해보면 잘 나옴.
