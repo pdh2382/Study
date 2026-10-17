@@ -11,12 +11,12 @@ handshakes.sort(key = lambda x : x[0])
 handshakes = [t[1:] for t in handshakes]
 
 for i, j in handshakes:
-    i_can_infect = (fcnt[i-1] > 0)
+    i_can_infect = (fcnt[i-1] > 0) # 처음에 이런 식으로 최초 감염여부를 저장을 안 해둬서, 
     j_can_infect = (fcnt[j-1] > 0)
 
     if i_can_infect: 
         fcnt[i-1] -= 1
-        if ismemo[j-1] != 1: 
+        if ismemo[j-1] != 1:  # 여기서 바꾼 감염상태가 밑의 조건문에도 영향을 미쳤었음.
             ismemo[j-1] = 1
             fcnt[j-1] = K
     if j_can_infect: 
@@ -28,3 +28,4 @@ for i, j in handshakes:
 for i in range(N):
     print(ismemo[i], end = '')
 
+# 따라서 최초 감염상태를 따로 저장하고 그걸 활용해서 문제 해결.
